@@ -47,6 +47,7 @@ header h1{
 .nav ul a:hover{
   padding: 5px 10px;
   background-color: #DF2E38;
+  color: white;
   border-radius: 8px;
   transition: all .4s;
 }

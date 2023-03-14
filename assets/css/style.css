@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+
+/*Configuração padrão da pagina*/
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Lexend;
+  list-style: none;
+  color: black;
+}
+
+/*Frete Gratis!*/
+header{
+  display: flex;
+  background: #DF2E38;
+  height: 50px;
+  justify-content: center;
+  align-content: center;
+  
+}
+header h1{
+  padding-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+/*logo, barra de navegação e botões*/
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  padding-top: 15px;
+}
+.cabecalho span{
+  color: #DF2E38;
+}
+.nav ul{
+  display: flex;
+  gap: 3em;
+}
+.nav ul a{
+  Color: black;
+}
+.nav ul a:hover{
+  padding: 5px 10px;
+  background-color: #DF2E38;
+  color: white;
+  border-radius: 8px;
+  transition: all .4s;
+}
+.inform{
+  display: flex;
+  gap: 3rem;
+}
+.inform a{
+  font-size: 16px;
+}
+
+
+/*destque "Headset"*/
+.destaque{
+  background-image: linear-gradient(45deg, #DF2E38 0%, #fad0c4 99%, #DF2E38 100%);;
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.destaque .conteudo-destaque{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding: 30px 30px;
+  justify-content: space-between;
+}
+.destaque .conteudo-destaque h1{
+  color: white;
+  padding-bottom: 40px;
+}
+.destaque .conteudo-destaque button{
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-radius: 9px;
+  color: white;
+  border: 2px solid white;
+  transition: transform 500ms;
+}
+.destaque .conteudo-destaque button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+.destaque .conteudo-destaque .produto1 img{
+  border-radius: 10px;
+}
+
+/*Categorias parte do meio*/
+
+.categoria{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+}
+.categorias ul{
+  display: flex;
+  gap: 2rem;
+}
+.categorias ul a:hover{
+  color: black;
+  font-weight: bold;
+  transition: .5s;
+}
+.categoria .arrow{
+  display: flex;
+  gap: 3rem;
+}
+
+/*Produtos*/
+.produtos{
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.produtos .produto img{
+  box-shadow: 10px 10px 20px 0px rgba(50, 50, 50, 0.22);
+  width: 250px;
+
+}
+.produtos .produto{
+  width: 250px;
+  transition: transform 500ms;
+}
+.produtos .produto:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.descricao{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+/*destque2 "tenis"*/
+.destaque2{
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.destaque2 .conteudo-destaque2{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding: 30px 30px;
+  justify-content: space-between;
+}
+.destaque2 .conteudo-destaque2 h1{
+  color: black;
+  padding-bottom: 40px;
+}
+.destaque2 .conteudo-destaque2 button{
+  background-color: white;
+  width: 130px;
+  height: 45px;
+  border-radius: 9px;
+  color: black;
+  border: 2px solid black;
+  transition: transform 500ms;
+}
+.destaque2 .conteudo-destaque2 button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+.destaque2 .conteudo-destaque2 .produto2 img{
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+/*Footer "rodape"*/
+footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #DF2E38;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 2rem;
+}
+footer img{
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+footer h3{
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: underline;
+}
+

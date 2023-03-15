@@ -119,7 +119,9 @@ header h1{
   display: flex;
   gap: 3rem;
 }
-
+#cat-dropdown{
+  display: none;
+}
 /*Produtos*/
 .produtos{
   display: flex;

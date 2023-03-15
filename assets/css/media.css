@@ -1,0 +1,41 @@
+@media screen and (max-width: 920px){
+    .nav ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .conteudo-destaque{
+        gap: 0px;
+    }
+    .titulo-destaque h1{
+        font-size: 20px;
+    }
+    .titulo-destaque2 h1{
+        font-size: 20px;
+    }
+    .produto1 IMG{
+        display: none;
+    }
+    .cabecalho{
+        padding: 10px 20px;
+    }
+    .link-cat{
+        display: none;
+    }
+    #cat-dropdown{
+        display: block;
+    }
+    .produto2 img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 315px){
+    .cabecalho h1{
+        font-size: 25px;
+    }
+    .inform{
+        gap: 20px;
+    }
+}

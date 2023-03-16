@@ -1,9 +1,44 @@
-@media screen and (max-width: 920px){
-    .nav ul{
-        display: none;
+/*RESPONSIVIDADE CELULAR*/
+
+@media screen and (max-width: 992px) {
+  
+    .nav_menu {
+        transition: all .5s;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4rem;
+        padding: 0 2rem;
+        display: grid;
+        align-items: center;
+        border-radius: 15px 15px 0 0;
+        transition: .4s;
+      background: white;
+        box-shadow: 10px 10px 20px 0px rgba(50, 50, 50, 300);
+    }
+  .nav-link{
+  transition: transform 500ms;
+    
+  }
+  .nav_link:hover{
+    transform: scale(1.1);
+  }
+  .container {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .nav{
+        height: 3rem;
+    }
+    i.nav_icon{
+        display: block;
+      color: #DF2E38;
+    }
+    footer{
+        height: 27%;
     }
 }
-
 @media screen and (max-width: 700px){
     .conteudo-destaque{
         gap: 0px;
@@ -30,12 +65,41 @@
         display: none;
     }
 }
+@media screen and (max-width: 576px) {
+    .nav_list{
+        justify-content: center;
+      transition: all .5s;
+    }
+}
+@media screen and (max-width: 526px) {
+    .nav_name{
+        display: none;
+    }
 
-@media screen and (max-width: 315px){
-    .cabecalho h1{
+}
+@media screen and (max-width: 320px) {
+    .nav_list {
+        column-gap: 2rem;
+        transition: all .5s;
+    }
+  .nav h1{
         font-size: 25px;
     }
     .inform{
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 264px) {
+    .nav_list {
+        column-gap: 1.5rem;
+        transition: all .5s;
+    }
+    .nav_icon{
+        font-size: 1rem;
+ 
+    }
+
+}
+
+

@@ -1,62 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
-
-/*Configuração padrão da pagina*/
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  font-family: Lexend;
-  list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
   color: black;
+    list-style: none;
+}
+body {
+    background: white;    
 }
 
-/*Frete Gratis!*/
-header{
+.anuncio-header{
   display: flex;
   background: #DF2E38;
   height: 50px;
   justify-content: center;
   align-content: center;
-  
 }
-header h1{
+.anuncio-header h1{
   padding-top: 15px;
   font-size: 14px;
   color: white;
 }
 
-/*logo, barra de navegação e botões*/
-.cabecalho{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 100px;
-  padding-top: 15px;
+
+/*NAVBAR CONFIGURATION*/
+
+ul{
+    list-style: none;
 }
-.cabecalho span{
+#a_icons{
+    text-decoration: none;
+    align-items: center;
+}
+.container {
+    max-width: 968px;
+    margin: auto;
+}
+header {
+    position: 
+      ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: 0.4s;
+}
+.nav #e{
   color: #DF2E38;
 }
-.nav ul{
-  display: flex;
-  gap: 3em;
+.nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav ul a{
-  Color: black;
+.nav_icon {
+    font-size: 1.5rem;
 }
-.nav ul a:hover{
-  padding: 5px 10px;
-  background-color: #DF2E38;
+.nav_name{
+    font-family: 'Lexend';
+}
+.nav_list,
+.nav_link {
+    display: flex;
+}
+.nav_list {
+    justify-content: space-around;
+    column-gap: 3rem;
+}
+.nav_link {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.25rem;
+    color: white;
+}
+.nav_link:hover {
   color: white;
   border-radius: 8px;
   transition: all .4s;
 }
+i.nav_icon {
+    display: none;
+}
+
 .inform{
   display: flex;
   gap: 3rem;
 }
 .inform a{
   font-size: 16px;
+  color: #DF2E38;
 }
+
 
 
 /*destque "Headset"*/
@@ -216,4 +254,6 @@ footer a{
   color: white;
   text-decoration: underline;
 }
+
+
 

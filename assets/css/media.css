@@ -41,16 +41,27 @@
 }
 @media screen and (max-width: 700px){
     .conteudo-destaque{
-        gap: 0px;
+      text-align: center;
+      margin-left: 50px;
+      gap: 0px;
+    }
+    .conteudo-destaque2{
+      text-align: center;
+      margin-left: 50px;
+      gap: 0px;
     }
     .titulo-destaque h1{
+      margin-top: 20px;
         font-size: 20px;
     }
     .titulo-destaque2 h1{
+      margin-top: 20px;
         font-size: 20px;
     }
+  
     .produto1 IMG{
         display: none;
+        
     }
     .cabecalho{
         padding: 10px 20px;

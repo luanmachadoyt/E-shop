@@ -92,15 +92,6 @@ header {
   transition: all .4s;
 }
 
-.link-superior:hover {
-
-  text-align: center;
-  background-color: #DF2E38;
-  transition: all .3s;
-  border-radius: 15px;
-  color: white;
-}
-
 i.nav_icon {
   display: none;
 }
@@ -108,6 +99,11 @@ i.nav_icon {
 .inform {
   display: flex;
   gap: 3rem;
+}
+
+.inform .fa-heart {
+  cursor: pointer;
+  color: #DF2E38;
 }
 
 .inform a {
@@ -175,11 +171,9 @@ i.nav_icon {
   display: flex;
   gap: 2rem;
 }
-
 .categorias ul a:hover {
-  color: black;
-  font-weight: bold;
-  transition: .5s;
+  transition: all .5s;
+  color: #DF2E38;
 }
 
 .categoria .arrow {
@@ -196,7 +190,7 @@ i.nav_icon {
   display: flex;
   gap: 3rem;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   justify-content: center;
   margin: 0 auto;
   padding-top: 60px;
@@ -214,10 +208,12 @@ i.nav_icon {
   padding: 10px 20px;
 
 }
-.produtos .card:hover{
+
+.produtos .card:hover {
   transition: all .3s;
-  box-shadow: 2px 6px 58px -22px rgba(0,0,0,0.75);
+  box-shadow: 2px 6px 58px -22px rgba(0, 0, 0, 0.75);
 }
+
 .produtos .like {
   display: flex;
   place-self: flex-end;
@@ -235,6 +231,7 @@ i.nav_icon {
 
 .produtos img {
   width: 200px;
+  height: 190px;
 }
 
 .produtos .descricao {
@@ -315,6 +312,7 @@ footer {
   margin: 0 auto;
   margin-top: 50px;
   gap: 2rem;
+  border-radius: 60px 60px 0 0;
 }
 
 footer img {
